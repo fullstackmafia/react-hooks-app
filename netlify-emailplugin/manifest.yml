@@ -1,5 +1,8 @@
 name: netlify-emailplugin
-config:
-    to: peter@flutterwavego.com
-    from: raphael@flutterwavego.com
-    message: We just deployed some bug fixes
+inputs:
+  - name: from
+    description: Sender email
+    name: to
+    description: Receiver email
+    
+  
