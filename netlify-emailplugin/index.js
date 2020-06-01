@@ -8,7 +8,7 @@ const {
 
 module.exports = {
     name: '@netlify/plugin-emailplugin',
-    onEnd: async () => {
+    onEnd: async ({ inputs }) => {
         if (!FROM_EMAIL) {
             throw new Error('No sender email present')
           }
@@ -22,8 +22,8 @@ module.exports = {
           const client = new postmark.ServerClient(KEY);
           const message = 'Hello Boss, we just deployed some bug fixes'
           const { alert } = await client.sendEmail({
-            From: FROM_EMAIL,
-            To: TO_EMAIL,
+            From: inputs.from || FROM_EMAIL,
+            To: inputs.to || TO_EMAIL,
             Subject: "New Deploy",
             TextBody: message,
           }) 
