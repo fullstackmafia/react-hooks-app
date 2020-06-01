@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "postmark": "^2.5.3"
-  }
+  },
+  "name": "netlify-emailplugin",
+  "version": "1.0.0",
+  "description": "A Netlify plugin that emails my boss each time I make an update",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackmafia/netlify-emailplugin.git"
+  },
+  "keywords": [
+    "netlify",
+    "netlify-plugin",
+    "build",
+    "plugins"
+  ],
+  "author": "Raphael Ugwu <ugwuraphael@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fullstackmafia/netlify-emailplugin/issues"
+  },
+  "homepage": "https://github.com/fullstackmafia/netlify-emailplugin#readme"
 }

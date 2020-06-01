@@ -7,7 +7,6 @@ const {
  } = process.env
 
 module.exports = {
-    name: '@netlify/plugin-emailplugin',
     onEnd: async ({ inputs }) => {
         if (!FROM_EMAIL) {
             throw new Error('No sender email present')
