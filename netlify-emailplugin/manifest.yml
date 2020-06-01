@@ -2,7 +2,7 @@ name: netlify-emailplugin
 inputs:
   - name: from
     description: Sender email
-    name: to
+  - name: to
     description: Receiver email
     
   
