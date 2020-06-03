@@ -5,4 +5,4 @@ package = "@netlify/plugin-local-install-core"
 package = "./netlify-emailplugin"
     [plugins.inputs]
     from = "raphael@flutterwavego.com"
-    to = "petr@flutterwavego.com"
+    to = "peter@flutterwavego.com"
