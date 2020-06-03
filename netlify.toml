@@ -1,7 +1,4 @@
 [[plugins]]
-package = "@netlify/plugin-local-install-core"
-
-[[plugins]]
 package = "./netlify-emailplugin"
     [plugins.inputs]
     from = "raphael@flutterwavego.com"
