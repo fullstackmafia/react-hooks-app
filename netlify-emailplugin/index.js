@@ -20,12 +20,11 @@ module.exports = {
 
           const client = new postmark.ServerClient(KEY);
           const message = 'Hello Boss, we just deployed some bug fixes'
-          const { alert } = await client.sendEmail({
+          await client.sendEmail({
             From: inputs.from || FROM_EMAIL,
             To: inputs.to || TO_EMAIL,
             Subject: "New Deploy",
             TextBody: message,
           }) 
-          console.log(alert)
     },
 }
