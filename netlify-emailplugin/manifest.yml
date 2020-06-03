@@ -1,10 +1,10 @@
 name: netlify-emailplugin
-inputs:
-  - name: from
-    description: Sender email
-    default: raphael@flutterwavego.com
-  - name: to
-    description: Receiver email
-    default: petr@flutterwavego.com
+# inputs:
+#   - name: from
+#     description: Sender email
+#     default: raphael@flutterwavego.com
+#   - name: to
+#     description: Receiver email
+#     default: peter@flutterwavego.com
     
   
