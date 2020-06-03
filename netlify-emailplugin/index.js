@@ -24,7 +24,7 @@ module.exports = {
             From: inputs.from || FROM_EMAIL,
             To: inputs.to || TO_EMAIL,
             Subject: "New Deploy",
-            TextBody: message,
+            TextBody: message
           }) 
     },
 }
